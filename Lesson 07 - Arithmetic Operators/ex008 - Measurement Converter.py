@@ -1,0 +1,8 @@
+distance = int(input('Enter a distance in meters: '))
+print(f'The distance of {distance:.1f}m is equivalent to:')
+print(f'{distance / 1000}km')
+print(f'{distance / 100}hm')
+print(f'{distance / 10}dam')
+print(f'{distance * 10}dm')
+print(f'{distance * 100}cm')
+print(f'{distance * 1000}mm')

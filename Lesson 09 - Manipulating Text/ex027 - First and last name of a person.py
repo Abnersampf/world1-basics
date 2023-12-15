@@ -1,0 +1,5 @@
+full_name = input("Enter your full name: ").strip()
+splitted_name = full_name.split()
+print("Nice to meet you!")
+print(f"Your first name is {splitted_name[0]}")
+print(f"Your last name is {splitted_name[len(splitted_name) - 1]}")
